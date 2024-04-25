@@ -1,10 +1,10 @@
-name: helm-git-app
+name: helm-repo-app
 
 deployment:
   replicas: 2
   namespace: default
-  image: olegan/helm-git-app
-  tag: 0.0.2
+  image: olegan/helm-repo-app
+  tag: 0.0.1
 
 services:
   protocol: TCP
@@ -12,4 +12,4 @@ services:
   type: NodePort
   port: 5000
   targetPort: 5000
-  nodePort: 30003
+  nodePort: 30005
