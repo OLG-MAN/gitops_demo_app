@@ -9,6 +9,6 @@ entries:
     name: helm-repo-app
     type: application
     urls:
-    -  https:/OLG-MAN.github.io/helm-repo-app/helm-repo-app-0.0.2.tgz
+    - https://OLG-MAN.github.io/helm-repo-app/helm-repo-app-0.0.2.tgz
     version: 0.0.2
 generated: "2024-04-25T14:16:02.68380601Z"
