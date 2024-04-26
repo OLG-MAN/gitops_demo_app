@@ -24,7 +24,7 @@ spec:
         image: {{ .Values.deployment.image }}:{{ .Values.deployment.tag }}
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: {{ .Values.services.port }}
         {{- if .Values.deployment.resources }}
         resources:
           {{- if .Values.deployment.resources.requests }}
