@@ -1,6 +1,6 @@
 ## Hellm repo app
 
-1. This repo contains an helm artifact which linked to a repo in ArtifactHub.
+1. This repo contains an helm app artifact.
 2. This is used for GitOps Demo.
 3. Chart Name - helm-repo-app
 4. URL - https://olg-man.github.io/gitops_demo_app/
