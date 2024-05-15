@@ -1,6 +1,6 @@
 apiVersion: v2
 name: helm-repo-app
-description: Helm chart app based on Git Repository
+description: Helm repo app based on Github
 
 # A chart can be either an 'application' or a 'library' chart.
 #
