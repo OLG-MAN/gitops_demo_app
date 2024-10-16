@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  helm-repo-app:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-10-16T12:17:26.206905417Z"
+    description: Helm repo app based on Github
+    digest: 05f9941746cb39a15f7a6bb46cc19ade78a0be3ae254a58694d6d6c1ee1ceae6
+    name: helm-repo-app
+    type: application
+    urls:
+    - https://olg-man.github.io/gitops_demo_app/helm-repo-app-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-10-16T12:17:26.203777473Z"
